@@ -1,0 +1,151 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/group.png
+    - assets/page-1/images/group-HdZ.png
+    - assets/page-1/images/fd352e2860dd396d85right-arrowsvg.png
+    - assets/page-1/images/vector-Rwu.png
+    - assets/page-1/images/link.png
+    - assets/page-1/images/vector-etX.png
+    - assets/page-1/images/vector-k1m.png
+    - assets/page-1/images/group-Vk3.png
+    - assets/page-1/images/f25c69c76cc900d18b824eweb20design20interviewjpg.png
+    - assets/page-1/images/f2585926737f58a3d7e231website20analytics202620resultsjpg.png
+    - assets/page-1/images/e5f2c89f7f336afa4b0rocketsvg.png
+    - assets/page-1/images/fd352e2860dd396d85right-arrowsvg-79q.png
+    - assets/page-1/images/ellipse-1-bg.png
+    - assets/page-1/images/vector-4Ss.png
+    - assets/page-1/images/vector-7g3.png
+    - assets/page-1/images/e5f2c89f7f336afa4b0rocketsvg-PaF.png
+    - assets/page-1/images/vector-6T9.png
+    - assets/page-1/images/e5f2c89f7f336afa4b0rocketsvg-8s1.png
+    - assets/page-1/images/vector-p5M.png
+    - assets/page-1/images/vector-mxB.png
+    - assets/page-1/images/group-XQj.png
+    - assets/page-1/images/link-WpF.png
+    - assets/page-1/images/vector-FzX.png
+    - assets/page-1/images/group-yqy.png
+    - assets/page-1/images/vector-1dq.png
+    - assets/page-1/images/branding-1.png
+    - assets/page-1/images/f25cc7ed45456795c8e289wordpress20maintenance20expertjpg.png
+    - assets/page-1/images/vector-6NB.png
+    - assets/page-1/images/ellipse-2-bg.png
+    - assets/page-1/images/ellipse-3-bg.png
+    - assets/page-1/images/e62e9e42-a9ae-46ca-ac07-818840622a83-removebg-preview-1-1.png
+    - assets/page-1/images/seo-1.png
+    - assets/page-1/images/e7a774dbffc62d44ebe394kinomatic20mockup-p-500jpg.png
+    - assets/page-1/images/group-swD.png
+    - assets/page-1/images/bc05523722a7e5422btwisted20nail20mockup-p-500jpg.png
+    - assets/page-1/images/vector-g6T.png
+    - assets/page-1/images/ad3ba4ae0a7b3f59d861noble20mockup-p-500jpg.png
+    - assets/page-1/images/vector-Gqu.png
+    - assets/page-1/images/group-mCK.png
+    - assets/page-1/images/test-1.png
+    - assets/page-1/images/development-1.png
+    - assets/page-1/images/image-3.png
+    - assets/page-1/images/software-developer-1.png
+    - assets/page-1/images/wordpress-optimization-flat-blue-icon-260nw-2399294235-1.png
+    - assets/page-1/images/bff7deaa2b1db23164bb81vancouver20bitcoin20mockup-p-500jpg.png
+    - assets/page-1/images/fd352e2860dd396d85right-arrowsvg-Ymu.png
+    - assets/page-1/images/ux-design-1.png
+    - assets/page-1/images/d2379a6e29f2ae870a6college20house20mockup201-p-500jpg.png
+    - assets/page-1/images/image-6.png
+    - assets/page-1/images/image-4.png
+    - assets/page-1/images/d461fc80a97d5c812sioms20mockup-p-500jpg.png
+    - assets/page-1/images/link-e7Z.png
+    - assets/page-1/images/image-4-bg.png
+    - assets/page-1/images/rectangle-2.png
+    - assets/page-1/images/web-1.png
+    - assets/page-1/images/ebfee45b31066eac2f5592mockup2019-p-500jpg.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
